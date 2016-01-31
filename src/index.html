@@ -61,40 +61,27 @@
           </div>
         </div>
 
+        {{#each experience}}
+        {{#each projects}}
         <div class="card">
             <div class="card-header">
-              <h4>Skagen Funds <small>2014-08 -> </small></h4>
+              <h4>{{title}} <small>{{from}} -> {{to}}</small></h4>
             </div>
             <div class="card-block">
-              <a href="http://www.skagenfunds.com" target="_blank">
-                <img class="img-fluid pull-xs-right" src="companies/skagen.jpg">
+              <a href="{{url}}" target="_blank">
+                <img class="img-fluid pull-xs-right" src="companies/{{image}}">
               </a>
               <p>
-                Developing the customer facing investment portal, adding new functionality and fixing bugs.
+                {{description}}
               </p>
               <p>
                 <b>Technologies:</b>
-                AngularJSJavaSeleniumJenkinsNode.jsGruntCSSHTMLGradleGitGerritIntelliJBootstrapMicrosoft SQL ServerSpring MVC
+                {{#each tech}}{{.}}{{/each}}
               <div class="clearfix"></div>
             </div>
         </div>
-        <div class="card">
-            <div class="card-header">
-              <h4>Laerdal Medical <small>2014-06 -> 2014-07</small></h4>
-            </div>
-            <div class="card-block">
-              <a href="http://www.laerdal.com" target="_blank">
-                <img class="img-fluid pull-xs-right" src="companies/laerdal.gif">
-              </a>
-              <p>
-                Made the prototype for Android app for showing feedback from the &quot;Resusci Anni&quot; CPR training manikin. App displayed graphs of compression depth+rate and ventilation rate. Also sent live data to nodejs backend and displayed on clients using socket.io
-              </p>
-              <p>
-                <b>Technologies:</b>
-                XamarinC#Visual StudioMercurialNode.jsAndroidBluetoothHTMLSocket.ioMongoDb
-              <div class="clearfix"></div>
-            </div>
-        </div>
+        {{/each}}
+        {{/each}}
 
       </div>
     </div>

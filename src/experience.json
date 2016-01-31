@@ -1,0 +1,34 @@
+[
+  {
+    "company": "Webstep",
+    "projects": [
+      {
+        "title": "Skagen Funds",
+        "from": "2014-08",
+        "to": "",
+        "image": "skagen.jpg",
+        "url": "http://www.skagenfunds.com",
+        "description": "Developing the customer facing investment portal, adding new functionality and fixing bugs.",
+        "tech": [
+          "AngularJS", "Java", "Selenium", "Jenkins", "Node.js", "Grunt",
+          "CSS", "HTML", "Gradle", "Git", "Gerrit",
+          "IntelliJ", "Bootstrap", "Microsoft SQL Server", "Spring MVC"
+        ]
+      },
+      {
+        "title": "Laerdal Medical",
+        "from": "2014-06",
+        "to": "2014-07",
+        "image": "laerdal.gif",
+        "url": "http://www.laerdal.com",
+        "projectUrl": "https://play.google.com/store/apps/details?id=com.Laerdal.QCPRPlugin",
+        "description": "Made the prototype for Android app for showing feedback from the \"Resusci Anni\" CPR training manikin. App displayed graphs of compression depth+rate and ventilation rate. Also sent live data to nodejs backend and displayed on clients using socket.io",
+        "tech": [
+          "Xamarin", "C#", "Visual Studio", "Mercurial", "Node.js", "Android",
+          "Bluetooth", "HTML", "Socket.io", "MongoDb"
+        ]
+      }
+
+    ]
+  }
+]
