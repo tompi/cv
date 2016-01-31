@@ -1,0 +1,27 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-hb": "^2.6.5"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-hb": "^2.6.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tompi/cv.git"
+  },
+  "author": "Thomas Haukland <thomas.haukland@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tompi/cv/issues"
+  },
+  "homepage": "https://github.com/tompi/cv"
+}
