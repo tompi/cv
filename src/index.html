@@ -62,6 +62,10 @@
         </div>
 
         {{#each experience}}
+        <div>
+            <div class="pull-xs-right">{{role}} <img src="companies/{{logo}}" style="height: 1em;"></div>
+            <br>
+        </div>
         {{#each projects}}
         <div class="card">
             <div class="card-header">
@@ -69,14 +73,14 @@
             </div>
             <div class="card-block">
               <a href="{{url}}" target="_blank">
-                <img class="img-fluid pull-xs-right" src="companies/{{image}}">
+                <img class="img-fluid pull-xs-right" src="companies/{{logo}}">
               </a>
               <p>
                 {{description}}
               </p>
               <p>
                 <b>Technologies:</b>
-                {{#each tech}}{{.}}{{/each}}
+                {{#each tech}}{{.}}, {{/each}}
               <div class="clearfix"></div>
             </div>
         </div>

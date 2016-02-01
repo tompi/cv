@@ -1,12 +1,14 @@
 [
   {
     "company": "Webstep",
+    "role": "Hired consultant from",
+    "logo": "webstep.jpg",
     "projects": [
       {
         "title": "Skagen Funds",
         "from": "2014-08",
         "to": "",
-        "image": "skagen.jpg",
+        "logo": "skagen.jpg",
         "url": "http://www.skagenfunds.com",
         "description": "Developing the customer facing investment portal, adding new functionality and fixing bugs.",
         "tech": [
@@ -19,7 +21,7 @@
         "title": "Laerdal Medical",
         "from": "2014-06",
         "to": "2014-07",
-        "image": "laerdal.gif",
+        "logo": "laerdal.gif",
         "url": "http://www.laerdal.com",
         "projectUrl": "https://play.google.com/store/apps/details?id=com.Laerdal.QCPRPlugin",
         "description": "Made the prototype for Android app for showing feedback from the \"Resusci Anni\" CPR training manikin. App displayed graphs of compression depth+rate and ventilation rate. Also sent live data to nodejs backend and displayed on clients using socket.io",
@@ -27,8 +29,47 @@
           "Xamarin", "C#", "Visual Studio", "Mercurial", "Node.js", "Android",
           "Bluetooth", "HTML", "Socket.io", "MongoDb"
         ]
+      },
+      {
+        "title": "Statoil",
+        "from": "2014-01",
+        "to": "2014-05",
+        "logo": "statoil.jpg",
+        "url": "http://www.statoil.com",
+        "description": "Worked on the web frontend for ProCoSys(Project Completion System), mostly on the reporting module.",
+        "tech": [
+          "C#", "Oracle", "JavaScript", "CSS", "HTML", "ASP.NET MVC", "Knockout.JS", "NHibernate"
+        ]
       }
-
+    ]
+  },
+  {
+    "company": "Bouvet",
+    "role": "Hired consultant from",
+    "logo": "bouvet.png",
+    "projects": [
+      {
+        "title": "Statoil",
+        "from": "2012-10",
+        "to": "2013-11",
+        "logo": "statoil.jpg",
+        "url": "http://www.statoil.com",
+        "description": "Worked on the web frontend for several systems, primarily ProCoSys(Project Completion System), and TIE (Technical Information Exchange)",
+        "tech": [
+          "C#", "Oracle", "JavaScript", "jQuery", "CSS", "HTML"
+        ]
+      },
+      {
+        "title": "Aker Solutions",
+        "from": "2012-06",
+        "to": "2012-10",
+        "logo": "aker.jpg",
+        "url": "http://www.akersolutions.com",
+        "description": "Worked on the web frontend of myDrilling.com, providing real-time feedback from oil rigs.",
+        "tech": [
+          "C#", "JavaScrip", "HTML", "CSS"
+        ]
+      }
     ]
   }
 ]
