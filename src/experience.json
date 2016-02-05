@@ -36,6 +36,7 @@
         "to": "2014-05",
         "logo": "statoil.jpg",
         "url": "http://www.statoil.com",
+        "projectUrl": "http://www.procosys.com",
         "description": "Worked on the web frontend for ProCoSys(Project Completion System), mostly on the reporting module.",
         "tech": [
           "C#", "Oracle", "JavaScript", "CSS", "HTML", "ASP.NET MVC", "Knockout.JS", "NHibernate"
@@ -65,9 +66,56 @@
         "to": "2012-10",
         "logo": "aker.jpg",
         "url": "http://www.akersolutions.com",
+        "projectUrl": "http://www.mydrilling.com/",
         "description": "Worked on the web frontend of myDrilling.com, providing real-time feedback from oil rigs.",
         "tech": [
-          "C#", "JavaScrip", "HTML", "CSS"
+          "C#", "JavaScript", "HTML", "CSS"
+        ]
+      },
+      {
+        "title": "University of Agder",
+        "from": "2012-02",
+        "to": "2012-07",
+        "logo": "uia.jpg",
+        "url": "http://www.uia.no",
+        "projectUrl": "http://booking.uia.no/room/now.php",
+        "description": "Customized open source booking system MRBS, running on the LAMP stack, for UiA. Added some features, ported layout to Bootstrap and made a Python script for importing bookings from internal system(Syllabus).",
+        "tech": [
+          "PHP", "Apache", "HTML", "CSS", "MySQL", "Python", "Subversion"
+        ]
+      },
+      {
+        "title": "Norgesenergi",
+        "from": "2012-01",
+        "to": "2012-07",
+        "logo": "norgesenergi.png",
+        "url": "http://www.norgesenergi.no",
+        "description": "Developed a new version of the customers interface to order services and maintain their subscription at NorgesEnergi. Used jQuery and Handlebars to make a SPA on top of Epi-server backend.",
+        "tech": [
+          "C#", "JavaScript", "EPIServer", "HTML", "CSS"
+        ]
+      },
+      {
+        "title": "Legemiddelindustrien",
+        "from": "2011-12",
+        "to": "2012-05",
+        "logo": "lmi.jpg",
+        "url": "http://www.lmi.no",
+        "projectUrl": "http://digitalis.lmi.no/",
+        "description": "Developed the website and CMS for LMI and their closed membership site.",
+        "tech": [
+          "C#", "Umbraco", "SQL Server", "Mercurial", "JavaScript", "HTML", "CSS"
+        ]
+      },
+      {
+        "title": "LNS Spitsbergen",
+        "from": "2011-11",
+        "to": "2012-10",
+        "logo": "lns.jpg",
+        "url": "http://www.lns.no",
+        "description": "Developed a web based timesheet application with integrations against the backoffice economy system.",
+        "tech": [
+          "C#", "SQL Server", "JavaScript", "HTML", "CSS", "TFS", "Telerik"
         ]
       }
     ]
