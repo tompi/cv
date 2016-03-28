@@ -2,11 +2,27 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Thomas Haukland: Curriculum Vitae</title>
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css"
       integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+    <style>
+      html {
+        background:url(fjord.jpg) no-repeat center center fixed;
+        background-size: cover;
+      }
+      .experience {
+        opacity: 0.8;
+        background-color: #fff;
+        margin-bottom: 20px;
+      }
+      body { background-color: transparent; }
+      .header { color: #fff;}
+      .jumbotron { background-color: rgba(255, 255, 255, 0.8); }
+      .card { opacity: 0.8; }
+    </style>
   </head>
   <body>
     <!--
@@ -32,7 +48,7 @@
           </div>
           <div class="row">
             <div class="col-sm-4">
-              <img src="me.jpg" class="img-fluid img-thumbnail">
+              <img src="me.jpg" class="img-fluid img-thumbnail" alt="Mugshot">
             </div>
             <div class="col-sm-8">
               <h1 class="hidden-xs-down">Thomas Haukland</h1>
@@ -61,167 +77,272 @@
           </div>
         </div>
 
-        <div>
-            <div class="pull-xs-right">Hired consultant from <img src="companies/webstep.jpg" style="height: 1em;"></div>
-            <br>
-        </div>
-        <div class="card">
-            <div class="card-header">
-              <h4>Skagen Funds <small>2014-08 -> </small></h4>
+          <div class="experience">
+            <div class="pull-xs-right">
+              Hourly paid consultant
+              <img src="companies/webstep.jpg" alt="Company logo" style="height: 1em;">
+              ( 2013-12 -->  )
             </div>
-            <div class="card-block">
-              <a href="http://www.skagenfunds.com" target="_blank">
-                <img class="img-fluid pull-xs-right" src="companies/skagen.jpg">
-              </a>
-              <p>
-                Developing the customer facing investment portal, adding new functionality and fixing bugs.
-              </p>
-              <p>
-                <b>Technologies:</b>
-                AngularJS, Java, Selenium, Jenkins, Node.js, Grunt, CSS, HTML, Gradle, Git, Gerrit, IntelliJ, Bootstrap, Microsoft SQL Server, Spring MVC, 
-              <div class="clearfix"></div>
+            <br/>
+          </div>
+            <div class="card">
+                <div class="card-header">
+                  <h4>Skagen Funds <small>2014-08 -> </small></h4>
+                </div>
+                <div class="card-block">
+                  <a href="http://www.skagenfunds.com" target="_blank">
+                    <img class="img-fluid pull-xs-right" src="companies/skagen.jpg" alt="Company logo">
+                  </a>
+                  <p>
+                    Developing the customer facing investment portal, adding new functionality and fixing bugs.
+                  </p>
+                  <p>
+                    <b>Technologies:</b>
+                    AngularJS, Java, Selenium, Jenkins, Node.js, Grunt, CSS, HTML, Gradle, Git, Gerrit, IntelliJ, Bootstrap, Microsoft SQL Server, Spring MVC, 
+                  </p>
+                  <div class="clearfix"></div>
+                </div>
             </div>
-        </div>
-        <div class="card">
-            <div class="card-header">
-              <h4>Laerdal Medical <small>2014-06 -> 2014-07</small></h4>
+            <div class="card">
+                <div class="card-header">
+                  <h4>Laerdal Medical <small>2014-06 -> 2014-07</small></h4>
+                </div>
+                <div class="card-block">
+                  <a href="http://www.laerdal.com" target="_blank">
+                    <img class="img-fluid pull-xs-right" src="companies/laerdal.gif" alt="Company logo">
+                  </a>
+                  <p>
+                    Made the prototype for Android app for showing feedback from the &quot;Resusci Anni&quot; CPR training manikin. App displayed graphs of compression depth+rate and ventilation rate. Also sent live data to nodejs backend and displayed on clients using socket.io
+                  </p>
+                  <p>
+                    <b>Technologies:</b>
+                    Xamarin, C#, Visual Studio, Mercurial, Node.js, Android, Bluetooth, HTML, Socket.io, MongoDb, 
+                  </p>
+                  <p>
+                    <a href="https://play.google.com/store/apps/details?id&#x3D;com.Laerdal.QCPRPlugin">View project online</a>
+                  </p>
+                  <div class="clearfix"></div>
+                </div>
             </div>
-            <div class="card-block">
-              <a href="http://www.laerdal.com" target="_blank">
-                <img class="img-fluid pull-xs-right" src="companies/laerdal.gif">
-              </a>
-              <p>
-                Made the prototype for Android app for showing feedback from the &quot;Resusci Anni&quot; CPR training manikin. App displayed graphs of compression depth+rate and ventilation rate. Also sent live data to nodejs backend and displayed on clients using socket.io
-              </p>
-              <p>
-                <b>Technologies:</b>
-                Xamarin, C#, Visual Studio, Mercurial, Node.js, Android, Bluetooth, HTML, Socket.io, MongoDb, 
-              <div class="clearfix"></div>
+            <div class="card">
+                <div class="card-header">
+                  <h4>Statoil <small>2014-01 -> 2014-05</small></h4>
+                </div>
+                <div class="card-block">
+                  <a href="http://www.statoil.com" target="_blank">
+                    <img class="img-fluid pull-xs-right" src="companies/statoil.jpg" alt="Company logo">
+                  </a>
+                  <p>
+                    Worked on the web frontend for ProCoSys(Project Completion System), mostly on the reporting module.
+                  </p>
+                  <p>
+                    <b>Technologies:</b>
+                    C#, Oracle, JavaScript, CSS, HTML, ASP.NET MVC, Knockout.JS, NHibernate, 
+                  </p>
+                  <div class="clearfix"></div>
+                </div>
             </div>
-        </div>
-        <div class="card">
-            <div class="card-header">
-              <h4>Statoil <small>2014-01 -> 2014-05</small></h4>
+          <div class="experience">
+            <div class="pull-xs-right">
+              Salaried consultant for
+              <img src="companies/bouvet.png" alt="Company logo" style="height: 1em;">
+              ( 2011-11 --> 2013-11 )
             </div>
-            <div class="card-block">
-              <a href="http://www.statoil.com" target="_blank">
-                <img class="img-fluid pull-xs-right" src="companies/statoil.jpg">
-              </a>
-              <p>
-                Worked on the web frontend for ProCoSys(Project Completion System), mostly on the reporting module.
-              </p>
-              <p>
-                <b>Technologies:</b>
-                C#, Oracle, JavaScript, CSS, HTML, ASP.NET MVC, Knockout.JS, NHibernate, 
-              <div class="clearfix"></div>
+            <br/>
+          </div>
+            <div class="card">
+                <div class="card-header">
+                  <h4>Statoil <small>2012-10 -> 2013-11</small></h4>
+                </div>
+                <div class="card-block">
+                  <a href="http://www.statoil.com" target="_blank">
+                    <img class="img-fluid pull-xs-right" src="companies/statoil.jpg" alt="Company logo">
+                  </a>
+                  <p>
+                    Worked on the web frontend for several systems, primarily ProCoSys(Project Completion System), and TIE (Technical Information Exchange)
+                  </p>
+                  <p>
+                    <b>Technologies:</b>
+                    C#, Oracle, JavaScript, jQuery, CSS, HTML, 
+                  </p>
+                  <div class="clearfix"></div>
+                </div>
             </div>
-        </div>
-        <div>
-            <div class="pull-xs-right">Hired consultant from <img src="companies/bouvet.png" style="height: 1em;"></div>
-            <br>
-        </div>
-        <div class="card">
-            <div class="card-header">
-              <h4>Statoil <small>2012-10 -> 2013-11</small></h4>
+            <div class="card">
+                <div class="card-header">
+                  <h4>Aker Solutions <small>2012-06 -> 2012-10</small></h4>
+                </div>
+                <div class="card-block">
+                  <a href="http://www.akersolutions.com" target="_blank">
+                    <img class="img-fluid pull-xs-right" src="companies/aker.jpg" alt="Company logo">
+                  </a>
+                  <p>
+                    Worked on the web frontend of myDrilling.com, providing real-time feedback from oil rigs.
+                  </p>
+                  <p>
+                    <b>Technologies:</b>
+                    C#, JavaScript, HTML, CSS, 
+                  </p>
+                  <div class="clearfix"></div>
+                </div>
             </div>
-            <div class="card-block">
-              <a href="http://www.statoil.com" target="_blank">
-                <img class="img-fluid pull-xs-right" src="companies/statoil.jpg">
-              </a>
-              <p>
-                Worked on the web frontend for several systems, primarily ProCoSys(Project Completion System), and TIE (Technical Information Exchange)
-              </p>
-              <p>
-                <b>Technologies:</b>
-                C#, Oracle, JavaScript, jQuery, CSS, HTML, 
-              <div class="clearfix"></div>
+            <div class="card">
+                <div class="card-header">
+                  <h4>University of Agder <small>2012-02 -> 2012-07</small></h4>
+                </div>
+                <div class="card-block">
+                  <a href="http://www.uia.no" target="_blank">
+                    <img class="img-fluid pull-xs-right" src="companies/uia.jpg" alt="Company logo">
+                  </a>
+                  <p>
+                    Customized open source booking system MRBS, running on the LAMP stack, for UiA. Added some features, ported layout to Bootstrap and made a Python script for importing bookings from internal system(Syllabus).
+                  </p>
+                  <p>
+                    <b>Technologies:</b>
+                    PHP, Apache, HTML, CSS, MySQL, Python, Subversion, 
+                  </p>
+                  <p>
+                    <a href="http://booking.uia.no/room/now.php">View project online</a>
+                  </p>
+                  <div class="clearfix"></div>
+                </div>
             </div>
-        </div>
-        <div class="card">
-            <div class="card-header">
-              <h4>Aker Solutions <small>2012-06 -> 2012-10</small></h4>
+            <div class="card">
+                <div class="card-header">
+                  <h4>Norgesenergi <small>2012-01 -> 2012-07</small></h4>
+                </div>
+                <div class="card-block">
+                  <a href="http://www.norgesenergi.no" target="_blank">
+                    <img class="img-fluid pull-xs-right" src="companies/norgesenergi.png" alt="Company logo">
+                  </a>
+                  <p>
+                    Developed a new version of the customers interface to order services and maintain their subscription at NorgesEnergi. Used jQuery and Handlebars to make a SPA on top of Epi-server backend.
+                  </p>
+                  <p>
+                    <b>Technologies:</b>
+                    C#, JavaScript, EPIServer, HTML, CSS, 
+                  </p>
+                  <div class="clearfix"></div>
+                </div>
             </div>
-            <div class="card-block">
-              <a href="http://www.akersolutions.com" target="_blank">
-                <img class="img-fluid pull-xs-right" src="companies/aker.jpg">
-              </a>
-              <p>
-                Worked on the web frontend of myDrilling.com, providing real-time feedback from oil rigs.
-              </p>
-              <p>
-                <b>Technologies:</b>
-                C#, JavaScript, HTML, CSS, 
-              <div class="clearfix"></div>
+            <div class="card">
+                <div class="card-header">
+                  <h4>Legemiddelindustrien <small>2011-12 -> 2012-05</small></h4>
+                </div>
+                <div class="card-block">
+                  <a href="http://www.lmi.no" target="_blank">
+                    <img class="img-fluid pull-xs-right" src="companies/lmi.jpg" alt="Company logo">
+                  </a>
+                  <p>
+                    Developed the website and CMS for LMI and their closed membership site.
+                  </p>
+                  <p>
+                    <b>Technologies:</b>
+                    C#, Umbraco, SQL Server, Mercurial, JavaScript, HTML, CSS, 
+                  </p>
+                  <p>
+                    <a href="http://www.lmi.no/">View project online</a>
+                  </p>
+                  <div class="clearfix"></div>
+                </div>
             </div>
-        </div>
-        <div class="card">
-            <div class="card-header">
-              <h4>University of Agder <small>2012-02 -> 2012-07</small></h4>
+            <div class="card">
+                <div class="card-header">
+                  <h4>LNS Spitsbergen <small>2011-11 -> 2012-10</small></h4>
+                </div>
+                <div class="card-block">
+                  <a href="http://www.lns.no" target="_blank">
+                    <img class="img-fluid pull-xs-right" src="companies/lns.jpg" alt="Company logo">
+                  </a>
+                  <p>
+                    Developed a web based timesheet application with integrations against the backoffice economy system.
+                  </p>
+                  <p>
+                    <b>Technologies:</b>
+                    C#, SQL Server, JavaScript, HTML, CSS, TFS, Telerik, 
+                  </p>
+                  <div class="clearfix"></div>
+                </div>
             </div>
-            <div class="card-block">
-              <a href="http://www.uia.no" target="_blank">
-                <img class="img-fluid pull-xs-right" src="companies/uia.jpg">
-              </a>
-              <p>
-                Customized open source booking system MRBS, running on the LAMP stack, for UiA. Added some features, ported layout to Bootstrap and made a Python script for importing bookings from internal system(Syllabus).
-              </p>
-              <p>
-                <b>Technologies:</b>
-                PHP, Apache, HTML, CSS, MySQL, Python, Subversion, 
-              <div class="clearfix"></div>
+          <div class="experience">
+            <div class="pull-xs-right">
+              Salaried system developer at Bluegarden
+              <img src="companies/bluegarden.png" alt="Company logo" style="height: 1em;">
+              ( 2001-09 --> 2011-10 )
             </div>
-        </div>
-        <div class="card">
-            <div class="card-header">
-              <h4>Norgesenergi <small>2012-01 -> 2012-07</small></h4>
+            <br/>
+          </div>
+            <div class="card">
+                <div class="card-header">
+                  <h4>Bluegarden <small>2001-09 -> 2011-10</small></h4>
+                </div>
+                <div class="card-block">
+                  <a href="http://www.bluegarden.no" target="_blank">
+                    <img class="img-fluid pull-xs-right" src="companies/bluegarden.png" alt="Company logo">
+                  </a>
+                  <p>
+                    Worked at the web frontend of the payroll system used by several of the largest companies in Norway. Also implemented integrations against several external parties like Portwise(SSO SAML solution), SEB(Autopopulation of travel expenses from credit Card) and Webcruiter(Recruiting solution)
+                  </p>
+                  <p>
+                    <b>Technologies:</b>
+                    C#, Oracle, JavaScript, jQuery, CSS, HTML, 
+                  </p>
+                  <div class="clearfix"></div>
+                </div>
             </div>
-            <div class="card-block">
-              <a href="http://www.norgesenergi.no" target="_blank">
-                <img class="img-fluid pull-xs-right" src="companies/norgesenergi.png">
-              </a>
-              <p>
-                Developed a new version of the customers interface to order services and maintain their subscription at NorgesEnergi. Used jQuery and Handlebars to make a SPA on top of Epi-server backend.
-              </p>
-              <p>
-                <b>Technologies:</b>
-                C#, JavaScript, EPIServer, HTML, CSS, 
-              <div class="clearfix"></div>
+          <div class="experience">
+            <div class="pull-xs-right">
+              Part time hourly employment while studying
+              (  -->  )
             </div>
-        </div>
-        <div class="card">
-            <div class="card-header">
-              <h4>Legemiddelindustrien <small>2011-12 -> 2012-05</small></h4>
+            <br/>
+          </div>
+            <div class="card">
+                <div class="card-header">
+                  <h4>University of Bergen <small>1999-03 -> 2001-06</small></h4>
+                </div>
+                <div class="card-block">
+                  <a href="http://www.bluegarden.no" target="_blank">
+                    <img class="img-fluid pull-xs-right" src="companies/uib.jpg" alt="Company logo">
+                  </a>
+                  <p>
+                    Developed a solution for remote studies of Art History.
+                  </p>
+                  <p>
+                    <b>Technologies:</b>
+                    PHP, JavaScript, CSS, HTML, 
+                  </p>
+                  <p>
+                    <a href="http://kunst.uib.no/">View project online</a>
+                  </p>
+                  <div class="clearfix"></div>
+                </div>
             </div>
-            <div class="card-block">
-              <a href="http://www.lmi.no" target="_blank">
-                <img class="img-fluid pull-xs-right" src="companies/lmi.jpg">
-              </a>
-              <p>
-                Developed the website and CMS for LMI and their closed membership site.
-              </p>
-              <p>
-                <b>Technologies:</b>
-                C#, Umbraco, SQL Server, Mercurial, JavaScript, HTML, CSS, 
-              <div class="clearfix"></div>
+          <div class="experience">
+            <div class="pull-xs-right">
+              Short term hourly employment while studying
+              ( 1998-04 --> 1998-07 )
             </div>
-        </div>
-        <div class="card">
-            <div class="card-header">
-              <h4>LNS Spitsbergen <small>2011-11 -> 2012-10</small></h4>
+            <br/>
+          </div>
+            <div class="card">
+                <div class="card-header">
+                  <h4>Varner Tekstil <small>1998-04 -> 1998-07</small></h4>
+                </div>
+                <div class="card-block">
+                  <a href="http://www.varner.com" target="_blank">
+                    <img class="img-fluid pull-xs-right" src="companies/varner.png" alt="Company logo">
+                  </a>
+                  <p>
+                    Changed backoffice-solution in all Cubus stores from using a proprietary protocol against a SCO-Unix server for updates/sales reports etc, to using ftp over standard TCP/IP against a Linux server. Also worked as a summer temp in the IT dep. from 1995 to 2000.
+                  </p>
+                  <p>
+                    <b>Technologies:</b>
+                    Linux, Bash-scripting, MS-DOS Batch-scripting, 
+                  </p>
+                  <div class="clearfix"></div>
+                </div>
             </div>
-            <div class="card-block">
-              <a href="http://www.lns.no" target="_blank">
-                <img class="img-fluid pull-xs-right" src="companies/lns.jpg">
-              </a>
-              <p>
-                Developed a web based timesheet application with integrations against the backoffice economy system.
-              </p>
-              <p>
-                <b>Technologies:</b>
-                C#, SQL Server, JavaScript, HTML, CSS, TFS, Telerik, 
-              <div class="clearfix"></div>
-            </div>
-        </div>
 
       </div>
     </div>

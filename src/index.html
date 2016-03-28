@@ -2,11 +2,27 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Thomas Haukland: Curriculum Vitae</title>
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css"
       integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+    <style>
+      html {
+        background:url(fjord.jpg) no-repeat center center fixed;
+        background-size: cover;
+      }
+      .experience {
+        opacity: 0.8;
+        background-color: #fff;
+        margin-bottom: 20px;
+      }
+      body { background-color: transparent; }
+      .header { color: #fff;}
+      .jumbotron { background-color: rgba(255, 255, 255, 0.8); }
+      .card { opacity: 0.8; }
+    </style>
   </head>
   <body>
     <!--
@@ -32,7 +48,7 @@
           </div>
           <div class="row">
             <div class="col-sm-4">
-              <img src="me.jpg" class="img-fluid img-thumbnail">
+              <img src="me.jpg" class="img-fluid img-thumbnail" alt="Mugshot">
             </div>
             <div class="col-sm-8">
               <h1 class="hidden-xs-down">Thomas Haukland</h1>
@@ -62,29 +78,41 @@
         </div>
 
         {{#each experience}}
-        <div>
-            <div class="pull-xs-right">{{role}} <img src="companies/{{logo}}" style="height: 1em;"></div>
-            <br>
-        </div>
-        {{#each projects}}
-        <div class="card">
-            <div class="card-header">
-              <h4>{{title}} <small>{{from}} -> {{to}}</small></h4>
+          <div class="experience">
+            <div class="pull-xs-right">
+              {{role}}
+              {{#if logo}}
+              <img src="companies/{{logo}}" alt="Company logo" style="height: 1em;">
+              {{/if}}
+              ( {{from}} --> {{to}} )
             </div>
-            <div class="card-block">
-              <a href="{{url}}" target="_blank">
-                <img class="img-fluid pull-xs-right" src="companies/{{logo}}">
-              </a>
-              <p>
-                {{description}}
-              </p>
-              <p>
-                <b>Technologies:</b>
-                {{#each tech}}{{.}}, {{/each}}
-              <div class="clearfix"></div>
+            <br/>
+          </div>
+          {{#each projects}}
+            <div class="card">
+                <div class="card-header">
+                  <h4>{{title}} <small>{{from}} -> {{to}}</small></h4>
+                </div>
+                <div class="card-block">
+                  <a href="{{url}}" target="_blank">
+                    <img class="img-fluid pull-xs-right" src="companies/{{logo}}" alt="Company logo">
+                  </a>
+                  <p>
+                    {{description}}
+                  </p>
+                  <p>
+                    <b>Technologies:</b>
+                    {{#each tech}}{{.}}, {{/each}}
+                  </p>
+                  {{#if projectUrl}}
+                  <p>
+                    <a href="{{projectUrl}}">View project online</a>
+                  </p>
+                  {{/if}}
+                  <div class="clearfix"></div>
+                </div>
             </div>
-        </div>
-        {{/each}}
+          {{/each}}
         {{/each}}
 
       </div>
