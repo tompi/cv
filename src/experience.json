@@ -6,9 +6,32 @@
     "logo": "webstep.jpg",
     "projects": [
       {
+        "title": "Laerdal Medical",
+        "from": "2017-08",
+        "to": "",
+        "logo": "laerdal.gif",
+        "url": "http://www.laerdal.com",
+        "description": "Developing different apps for Android and iOS in Xamarin",
+        "tech": [
+          "Xamarin", "C#", "Visual Studio", "Mercurial", "Node.js", "Android",
+          "Bluetooth", "HTML", "iOS", "java"
+        ]
+      },
+      {
+        "title": "Altibox",
+        "from": "2017-03",
+        "to": "2017-07",
+        "logo": "altibox.png",
+        "url": "http://www.altibox.no",
+        "description": "Making a website for the support team that gathers information about the customer from every internal it-system and processes the info using a rule engine.",
+        "tech": [
+          "java", "REST", "SOAP", "ES6", "Webpack", "JBoss", "Drools"
+        ]
+      },
+      {
         "title": "Skagen Funds",
         "from": "2014-08",
-        "to": "",
+        "to": "2017-02",
         "logo": "skagen.jpg",
         "url": "http://www.skagenfunds.com",
         "description": "Developing the customer facing investment portal, adding new functionality and fixing bugs.",
