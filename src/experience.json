@@ -2,7 +2,7 @@
   {
     "company": "Webstep",
     "from": "2013-12",
-    "role": "Hourly paid consultant",
+    "role": "Hourly paid consultant for WEBSTEP",
     "logo": "webstep.jpg",
     "projects": [
       {
@@ -14,7 +14,7 @@
         "description": "Developing different apps for Android and iOS in Xamarin",
         "tech": [
           "Xamarin", "C#", "Visual Studio", "Mercurial", "Node.js", "Android",
-          "Bluetooth", "HTML", "iOS", "java"
+          "Bluetooth", "HTML", "iOS", "Java"
         ]
       },
       {
@@ -25,7 +25,7 @@
         "url": "http://www.altibox.no",
         "description": "Making a website for the support team that gathers information about the customer from every internal it-system and processes the info using a rule engine.",
         "tech": [
-          "java", "REST", "SOAP", "ES6", "Webpack", "JBoss", "Drools"
+          "Java", "REST", "SOAP", "ES6", "Webpack", "JBoss", "Drools"
         ]
       },
       {
@@ -47,7 +47,6 @@
         "to": "2014-07",
         "logo": "laerdal.gif",
         "url": "http://www.laerdal.com",
-        "projectUrl": "https://play.google.com/store/apps/details?id=com.Laerdal.QCPRPlugin",
         "description": "Made the prototype for Android app for showing feedback from the \"Resusci Anni\" CPR training manikin. App displayed graphs of compression depth+rate and ventilation rate. Also sent live data to nodejs backend and displayed on clients using socket.io",
         "tech": [
           "Xamarin", "C#", "Visual Studio", "Mercurial", "Node.js", "Android",
@@ -71,8 +70,7 @@
     "company": "Bouvet",
     "from": "2011-11",
     "to": "2013-11",
-    "role": "Salaried consultant for",
-    "logo": "bouvet.png",
+    "role": "Salaried consultant for BOUVET",
     "projects": [
       {
         "title": "Statoil",
@@ -124,7 +122,6 @@
         "to": "2012-05",
         "logo": "lmi.jpg",
         "url": "http://www.lmi.no",
-        "projectUrl": "http://www.lmi.no/",
         "description": "Developed the website and CMS for LMI and their closed membership site.",
         "tech": [
           "C#", "Umbraco", "SQL Server", "Mercurial", "JavaScript", "HTML", "CSS"
@@ -148,7 +145,6 @@
     "role": "Salaried system developer at Bluegarden",
     "from": "2001-09",
     "to": "2011-10",
-    "logo": "bluegarden.png",
     "projects": [
       {
         "title": "Bluegarden",
@@ -165,7 +161,7 @@
   },
   {
     "company": "University of Bergen",
-    "role": "Part time hourly employment while studying",
+    "role": "Part time hourly employment at UiB while studying",
     "from": "1999-03",
     "to": "2001-06",
     "projects": [
@@ -174,8 +170,7 @@
         "from": "1999-03",
         "to": "2001-06",
         "logo": "uib.jpg",
-        "url": "http://www.bluegarden.no",
-        "projectUrl": "http://kunst.uib.no/",
+        "url": "http://www.uib.no",
         "description": "Developed a solution for remote studies of Art History.",
         "tech": [
           "PHP", "JavaScript", "CSS", "HTML"
@@ -185,7 +180,7 @@
   },
   {
     "company": "Varner Tekstil",
-    "role": "Short term hourly employment while studying",
+    "role": "Short term hourly employment at Varner while studying",
     "from": "1998-04",
     "to": "1998-07",
     "projects": [

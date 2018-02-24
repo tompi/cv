@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Introduction to Node.js",
+    "description": "Talk at JavaBin about Node.js, streams, isomorphic rendering, grunt vs gulp",
+    "date": "2015-04-21",
+    "url": "https://www.meetup.com/javaBin-Stavanger/events/221713500/"
+  },
+  {
+    "title": "Hipster Web Development",
+    "description": "Talk at JavaBin about HTML5, CSS3/LESS, AngularJS, Yeoman, Jasmine, Bower, SocketIO, Node.js, Cloud9, Grunt, Git, MongoDB and Heroku",
+    "date": "2013-05-14",
+    "url": "https://www.meetup.com/javaBin-Stavanger/events/115655532/"
+  }
+]

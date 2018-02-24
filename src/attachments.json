@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Graduate diploma",
+    "date": "2001-10-10",
+    "file": "master.png"
+  },
+  {
+    "title": "University grades",
+    "date": "2001-11-07",
+    "file": "grades.png"
+  },
+  {
+    "title": "Graduate thesis",
+    "date": "2001-07-21",
+    "file": "hf.pdf"
+  },
+  {
+    "title": "Reference letter, UiB, Institute of Art History",
+    "date": "2001-08-27",
+    "file": "reference-uib.png"
+  },
+  {
+    "title": "Job certificate, UiB, Institute of Computer Science",
+    "date": "2001-08-08",
+    "file": "reference-uib-ii.png"
+  },
+  {
+    "title": "Reference letter, Varner",
+    "date": "2001-08",
+    "file": "reference-varner.png"
+  },
+  {
+    "title": "High school grades",
+    "date": "1994-06-24",
+    "file": "grades-highschool.png"
+  }
+]
