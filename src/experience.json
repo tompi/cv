@@ -102,7 +102,6 @@
         "to": "2012-07",
         "logo": "uia.jpg",
         "url": "http://www.uia.no",
-        "projectUrl": "http://booking.uia.no/room/now.php",
         "description": "Customized open source booking system MRBS, running on the LAMP stack, for UiA. Added some features, ported layout to Bootstrap and made a Python script for importing bookings from internal system(Syllabus).",
         "tech": [
           "PHP", "Apache", "HTML", "CSS", "MySQL", "Python", "Subversion"
@@ -167,6 +166,8 @@
   {
     "company": "University of Bergen",
     "role": "Part time hourly employment while studying",
+    "from": "1999-03",
+    "to": "2001-06",
     "projects": [
       {
         "title": "University of Bergen",
