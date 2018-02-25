@@ -15,7 +15,7 @@ gulp.task('default', function () {
 
 gulp.task('pdf', function () {
       return gulp
-        .src('./src/cv.tex')
+        .src('./src/Thomas_Haukland.tex')
         .pipe(hb({
             data: './src/*.json',
             helpers: './src/*.js',
