@@ -1,0 +1,68 @@
+\documentclass[10pt]{article}
+\usepackage{array, xcolor, lipsum, bibentry}
+\usepackage[margin=3cm]{geometry}
+\usepackage[colorlinks=true, urlcolor=blue, anchorcolor=blue, linkcolor=blue, citecolor=blue]{hyperref}
+\usepackage{graphicx}
+\graphicspath{ {attachments/} }
+ 
+\title{\bfseries\Huge Thomas Haukland}
+\author{thomas.haukland@gmail.com 90786985}
+\author{Eikebergveien 16, 4017 Stavanger}
+\date{}
+ 
+\definecolor{lightgray}{gray}{0.8}
+\newcolumntype{L}{>{\raggedleft}p{0.14\textwidth}}
+\newcolumntype{R}{p{0.8\textwidth}}
+\newcommand\VRule{\color{lightgray}\vrule width 0.5pt}
+ 
+\begin{document}
+\maketitle
+\vspace{1em}
+\begin{minipage}[ht]{0.48\textwidth}
+Date of birth: 1975-01-29\\
+Family: Married, two sons(2002, 2006)\\
+Education: Master of Computer Science (UiB)\\
+\end{minipage}
+\begin{minipage}[ht]{0.48\textwidth}
+\url{http://thomas.haukland.online}\\
+\url{https://github.com/tompi}\\
+\url{https://www.linkedin.com/in/thomas-haukland-93363a5/}\\
+\end{minipage}
+\vspace{20pt}
+ 
+\section*{Professional Experience}
+\begin{tabular}{p{3cm}!{\VRule}R}
+\end{tabular}\\
+\vspace{1em}
+{{#each experience}}
+\begin{tabular}{p{3cm}!{\VRule}R}
+{{from}}--{{to}}&{\bf {{role}} }\\
+\end{tabular}\\
+\vspace{1em}
+{{#each projects}}
+\begin{tabular}{p{3cm}!{\VRule}R}
+{{from}}--{{to}}&{\bf {{title}} }\\
+&{{description}}\\
+&{\bf Technologies: }{{#each tech}}{{.}}{{#unless @last}}, {{/unless}}{{/each}}\\
+\end{tabular}\\
+\vspace{1em}
+{{/each}}
+{{/each}}
+ 
+\section*{Talks}
+\begin{tabular}{p{3cm}!{\VRule}R}
+\end{tabular}\\
+\vspace{1em}
+{{#each lectures}}
+\begin{tabular}{p{3cm}!{\VRule}R}
+{{date}}&{\bf {{title}} }\\
+&{{description}}\\
+\end{tabular}\\
+\vspace{2em}
+{{/each}}
+ 
+{{#each attachments}}
+{{#unless excludeFromPdf}}\includegraphics[width=\textwidth]{"{{file}}"} {{/unless}}
+{{/each}}
+
+\end{document}

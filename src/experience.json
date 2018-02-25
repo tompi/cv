@@ -2,13 +2,14 @@
   {
     "company": "Webstep",
     "from": "2013-12",
+    "to": "today",
     "role": "Hourly paid consultant for WEBSTEP",
     "logo": "webstep.jpg",
     "projects": [
       {
         "title": "Laerdal Medical",
         "from": "2017-08",
-        "to": "",
+        "to": "today",
         "logo": "laerdal.gif",
         "url": "http://www.laerdal.com",
         "description": "Developing different apps for Android and iOS in Xamarin",
@@ -47,7 +48,7 @@
         "to": "2014-07",
         "logo": "laerdal.gif",
         "url": "http://www.laerdal.com",
-        "description": "Made the prototype for Android app for showing feedback from the \"Resusci Anni\" CPR training manikin. App displayed graphs of compression depth+rate and ventilation rate. Also sent live data to nodejs backend and displayed on clients using socket.io",
+        "description": "Made the prototype for Android app for showing feedback from the \"Resusci Anne\" CPR training manikin. App displayed graphs of compression depth+rate and ventilation rate. Also sent live data to nodejs backend and displayed on clients using socket.io",
         "tech": [
           "Xamarin", "C#", "Visual Studio", "Mercurial", "Node.js", "Android",
           "Bluetooth", "HTML", "Socket.io", "MongoDb"

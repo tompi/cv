@@ -5,7 +5,8 @@
   "main": "index.js",
   "dependencies": {
     "gulp": "^3.9.0",
-    "gulp-hb": "^2.6.5"
+    "gulp-hb": "^2.6.5",
+    "gulp-string-replace": "^1.0.0"
   },
   "devDependencies": {
     "gulp": "^3.9.0",

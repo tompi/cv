@@ -12,22 +12,26 @@
   {
     "title": "Graduate thesis",
     "date": "2001-07-21",
-    "file": "hf.pdf"
+    "file": "hf.pdf",
+    "excludeFromPdf": true
   },
   {
     "title": "Reference letter, UiB, Institute of Art History",
     "date": "2001-08-27",
-    "file": "reference-uib.png"
+    "file": "reference-uib.png",
+    "excludeFromPdf": true
   },
   {
     "title": "Job certificate, UiB, Institute of Computer Science",
     "date": "2001-08-08",
-    "file": "reference-uib-ii.png"
+    "file": "reference-uib-ii.png",
+    "excludeFromPdf": true
   },
   {
     "title": "Reference letter, Varner",
     "date": "2001-08",
-    "file": "reference-varner.png"
+    "file": "reference-varner.png",
+    "excludeFromPdf": true
   },
   {
     "title": "High school grades",

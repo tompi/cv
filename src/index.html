@@ -67,7 +67,7 @@
                 <dt class="col-md-3">Contact</dt>
                 <dd class="col-md-9">+47 90786985</dd>
                 <dd class="col-md-offset-3 col-md-9">thomas.haukland@gmail.com</dd>
-                <dt class="col-md-3">Birthdate</dt>
+                <dt class="col-md-3">Date of birth</dt>
                 <dd class="col-md-9">1975-01-29</dd>
                 <dt class="col-md-3">Family</dt>
                 <dd class="col-md-9">Married, two sons(2002, 2006)</dd>
@@ -91,7 +91,7 @@
               {{role}}
               ( {{from}} --> {{to}} )
             </div>
-            <br/>
+            <div class="clearfix"></div>
           </div>
           {{#each projects}}
             <div class="card">
@@ -107,7 +107,7 @@
                   </p>
                   <p>
                     <b>Technologies:</b>
-                    {{#each tech}}{{.}}, {{/each}}
+                    {{#each tech}}{{.}}{{#unless @last}}, {{/unless}}{{/each}}
                   </p>
                   {{#if projectUrl}}
                   <p>
