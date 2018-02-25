@@ -3,7 +3,7 @@
     "company": "Webstep",
     "from": "2013-12",
     "to": "today",
-    "role": "Hourly paid consultant for WEBSTEP",
+    "role": "Consultant for WEBSTEP",
     "logo": "webstep.jpg",
     "projects": [
       {
@@ -48,7 +48,7 @@
         "to": "2014-07",
         "logo": "laerdal.gif",
         "url": "http://www.laerdal.com",
-        "description": "Made the prototype for Android app for showing feedback from the \"Resusci Anne\" CPR training manikin. App displayed graphs of compression depth+rate and ventilation rate. Also sent live data to nodejs backend and displayed on clients using socket.io",
+        "description": "Made the prototype for Android app for showing feedback from the \"Resusci Anne\" CPR training manikin. App displayed graphs of compression depth, compression rate and ventilation volume. Also sent live data to nodejs backend and displayed on clients using socket.io",
         "tech": [
           "Xamarin", "C#", "Visual Studio", "Mercurial", "Node.js", "Android",
           "Bluetooth", "HTML", "Socket.io", "MongoDb"
@@ -71,7 +71,7 @@
     "company": "Bouvet",
     "from": "2011-11",
     "to": "2013-11",
-    "role": "Salaried consultant for BOUVET",
+    "role": "Consultant for BOUVET",
     "projects": [
       {
         "title": "Statoil",
@@ -143,7 +143,7 @@
   },
   {
     "company": "Bluegarden",
-    "role": "Salaried system developer at Bluegarden",
+    "role": "System developer at Bluegarden",
     "from": "2001-09",
     "to": "2011-10",
     "projects": [
@@ -162,7 +162,7 @@
   },
   {
     "company": "University of Bergen",
-    "role": "Part time hourly employment at UiB while studying",
+    "role": "Part time hourly employment at UiB",
     "from": "1999-03",
     "to": "2001-06",
     "projects": [
@@ -181,7 +181,7 @@
   },
   {
     "company": "Varner Tekstil",
-    "role": "Short term hourly employment at Varner while studying",
+    "role": "Short term hourly employment at Varner",
     "from": "1998-04",
     "to": "1998-07",
     "projects": [
