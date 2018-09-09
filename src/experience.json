@@ -1,15 +1,35 @@
 [
   {
+    "company": "Appman",
+    "from": "2018-08",
+    "to": "today",
+    "role": "Consultant for Appman",
+    "logo": "appman.png",
+    "projects": [
+      {
+        "title": "Laerdal Medical",
+        "from": "2018-08",
+        "to": "today",
+        "logo": "laerdal.gif",
+        "url": "http://www.laerdal.com",
+        "description": "Developing different apps for Android and iOS in Xamarin",
+        "tech": [
+          "Xamarin", "C#", "Visual Studio", "Mercurial", "Node.js", "Android",
+          "Bluetooth", "HTML", "iOS", "Java"
+        ]
+			}]
+	},
+  {
     "company": "Webstep",
     "from": "2013-12",
-    "to": "today",
+    "to": "2018-07",
     "role": "Consultant for WEBSTEP",
     "logo": "webstep.jpg",
     "projects": [
       {
         "title": "Laerdal Medical",
         "from": "2017-08",
-        "to": "today",
+        "to": "2018-07",
         "logo": "laerdal.gif",
         "url": "http://www.laerdal.com",
         "description": "Developing different apps for Android and iOS in Xamarin",

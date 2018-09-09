@@ -1,0 +1,21 @@
+<div class="card attachments">
+	<div class="card-header attachments-header">
+		<h4>Attachments</h4>
+	</div>
+	<div class="card-block">
+		<table class="table">
+			<thead class="thead-light">
+				<tr><th>File</th><th>Date</th></tr>
+			</thead>
+			<tbody>
+				{{#each attachments}}
+				<tr>
+					<td><a href="attachments/{{file}}">{{title}}</a></td>
+					<td>{{date}}</td>
+				</tr>
+				{{/each}}
+			</tbody>
+		</table>
+		<div class="clearfix"></div>
+	</div>
+</div>

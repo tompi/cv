@@ -46,7 +46,7 @@
     -->
     <div class="container">
       <div class="container-fluid">
-        <br>
+        <br/>
 
         <div class="jumbotron">
           <div class="hidden-sm-up row">
@@ -86,84 +86,12 @@
         </div>
 
         {{#each experience}}
-          <div class="experience">
-            <div class="pull-xs-right">
-              {{role}}
-              ( {{from}} --> {{to}} )
-            </div>
-            <div class="clearfix"></div>
-          </div>
-          {{#each projects}}
-            <div class="card">
-                <div class="card-header experience-header">
-                  <h4>{{title}} <small>{{from}} -> {{to}}</small></h4>
-                </div>
-                <div class="card-block">
-                  <a href="{{url}}" target="_blank">
-                    <img class="img-fluid pull-xs-right" src="companies/{{logo}}" alt="Company logo">
-                  </a>
-                  <p>
-                    {{description}}
-                  </p>
-                  <p>
-                    <b>Technologies:</b>
-                    {{#each tech}}{{.}}{{#unless @last}}, {{/unless}}{{/each}}
-                  </p>
-                  {{#if projectUrl}}
-                  <p>
-                    <a href="{{projectUrl}}">View project online</a>
-                  </p>
-                  {{/if}}
-                  <div class="clearfix"></div>
-                </div>
-            </div>
-          {{/each}}
+					{{> experience}}
         {{/each}}
 
-        <div class="row header">
-          <div class="col-xs-12">
-            <h2>Talks</h2>
-          </div>
-        </div>
+				{{> lectures}}
 
-          {{#each lectures}}
-            <div class="card lecture">
-                <div class="card-header lecture-header">
-                  <h4>{{title}} <small>{{date}}</small></h4>
-                </div>
-                <div class="card-block">
-                  <p>
-                    {{description}}
-                  </p>
-                  <p>
-                    <a href="{{url}}">View online</a>
-                  </p>
-                  <div class="clearfix"></div>
-                </div>
-            </div>
-          {{/each}}
-
-        <div class="card attachments">
-          <div class="card-header attachments-header">
-            <h4>Attachments</h4>
-          </div>
-          <div class="card-block">
-            <table class="table">
-              <thead class="thead-light">
-                <tr><th>File</th><th>Date</th></tr>
-              </thead>
-              <tbody>
-                {{#each attachments}}
-                  <tr>
-                    <td><a href="attachments/{{file}}">{{title}}</a></td>
-                    <td>{{date}}</td>
-                  </tr>
-                {{/each}}
-              </tbody>
-            </table>
-          <div class="clearfix"></div>
-        </div>
-
+				{{> attachments}}
       </div>
     </div>
   </body>

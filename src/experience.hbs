@@ -1,0 +1,32 @@
+<div class="experience">
+	<div class="pull-xs-right">
+		{{role}} ( {{from}} --> {{to}} )
+	</div>
+	<div class="clearfix"></div>
+</div>
+{{#each projects}}
+<div class="card">
+	<div class="card-header experience-header">
+		<h4>{{title}} <small>{{from}} -> {{to}}</small></h4>
+	</div>
+	<div class="card-block">
+		<a href="{{url}}" target="_blank">
+			<img class="img-fluid pull-xs-right" 
+				src="companies/{{logo}}" alt="Company logo">
+		</a>
+		<p>
+			{{description}}
+		</p>
+		<p>
+			<b>Technologies:</b>
+			{{#each tech}}{{.}}{{#unless @last}}, {{/unless}}{{/each}}
+		</p>
+		{{#if projectUrl}}
+		<p>
+			<a href="{{projectUrl}}">View project online</a>
+		</p>
+		{{/if}}
+		<div class="clearfix"></div>
+	</div>
+</div>
+{{/each}}
