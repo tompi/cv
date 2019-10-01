@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "gulp": "^3.9.1",
-    "gulp-hb": "^7.0.1",
+    "gulp": "^4.0.2",
+    "gulp-hb": "^8.0.0",
     "gulp-string-replace": "^1.1.1"
   },
   "devDependencies": {},
